@@ -64,7 +64,7 @@ Je recommande à 💯 % ce restaurant 😍</p>
   },// More reviews...
 ]
 
-function classNames(...classes) {
+function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ')
 }
 
