@@ -1,6 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import ContactUs from '../components/Contact'
 import Hero from '../components/hero_section/Hero'
+import Images from '../components/Images'
+import Menu from '../components/Menu'
+import Reviews from '../components/Reviews'
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +17,10 @@ const Home: NextPage = () => {
 
       <main>
         <Hero />
+        <Menu />
+        <Images />
+        <Reviews />
+        <ContactUs />
       </main>
     </div>
   )

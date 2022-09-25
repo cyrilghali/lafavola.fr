@@ -7,10 +7,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'herr' : ['Herr Von Muellerhof', 'Lucida Handwriting', 'Brush Script MT', 'Comic Sans', 'Comic Sans MS', 'Chalkboard']
+        'herr' : ['Herr Von Muellerhof', 'cursive']
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/typography'),
+  ],
 }
 
