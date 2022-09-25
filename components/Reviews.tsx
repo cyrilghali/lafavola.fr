@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { StarIcon } from '@heroicons/react/20/solid'
+import Image from 'next/image'
 
 const reviews = [
   {
