@@ -14,6 +14,15 @@ const nextConfig = {
      */
     defaultLocale: "fr-FR",
   },
+    async redirects() {
+      return [
+        {
+          source: '/menu',
+          destination: '/menu.pdf',
+          permanent: true,
+        },
+    ]
+  },
 }
 
 

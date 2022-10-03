@@ -14,7 +14,7 @@ class MyDocument extends Document {
           src="https://chiffre.io/analytics.js"
           data-chiffre-project-id="CftpjbMo3wqA2GBo"
           data-chiffre-public-key="pk.wcpsC0AJieEYzKdLlQWx2h0AFhQvpCHne05ehkJnA0k"
-          referrerpolicy="origin"
+          referrerPolicy="origin"
           crossOrigin="anonymous"
         />
         </Head>

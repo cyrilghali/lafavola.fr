@@ -91,7 +91,7 @@ export default function Menu() {
                 Pour ceux qui veulent se faire plaisir, venez combler vos désirs avec nos assiettes d’inspiration italienne. Nous aimons la nourriture, tout comme vous.
               </p>
               <a
-                className="block w-full rounded-md border border-transparent bg-[#252525] py-3 px-5 text-center text-base font-medium text-white-700 shadow-md hover:bg-gray-900 sm:inline-block sm:w-auto"
+                className="block w-full rounded-md border border-transparent bg-[#252525] py-3 px-5 text-center text-base font-medium text-[#FFF] shadow-md hover:bg-gray-900 sm:inline-block sm:w-auto"
                 href="/menu.pdf"
               >
                 Menu
