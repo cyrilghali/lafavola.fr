@@ -7,7 +7,7 @@ export default function ContactUs() {
           <span className="block">Contactez nous</span>
         </h2>
         <p className="mt-4 text-lg leading-6 text-[#252525]">
-          Notre restaurant, situé au 135 avenue de Villiers Paris 75017, est ouvert du lundi au samedi de 9h jusqu&apos;à 23h.
+          Notre restaurant, situé au 135 avenue de Villiers Paris 75017, est ouvert du lundi au samedi de 10h jusqu&apos;à 14h30 et de 18h jusqu&apos;à 22h; .
         </p><div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
             <a
