@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
 /*
-  This example requires Tailwind CSS v2.0+ 
-  
+  This example requires Tailwind CSS v3.0+
+
   This example requires some changes to your config:
-  
+
   ```
   // tailwind.config.js
   module.exports = {
@@ -12,6 +12,7 @@ import Image from 'next/image';
     plugins: [
       // ...
       require('@tailwindcss/aspect-ratio'),
+      require('@tailwindcss/typography'), // optional if you use the typography plugin
     ],
   }
   ```
