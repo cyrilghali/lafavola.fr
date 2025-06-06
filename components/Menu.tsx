@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 /*
   This example requires Tailwind CSS v3.0+
@@ -36,9 +36,9 @@ export default function Menu() {
                 <Image
                   className="rounded-3xl object-cover object-center shadow-2xl"
                   src="/photos/7.jpeg"
-                  layout="fill"
                   alt=""
-                />
+                  fill
+                  sizes="100vw" />
               </div>
             </div>
           </div>
