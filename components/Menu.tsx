@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 /*
   This example requires Tailwind CSS v3.0+

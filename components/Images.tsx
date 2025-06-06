@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const files = [
   { source: '/photos/1.jpeg' },
