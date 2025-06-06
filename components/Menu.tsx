@@ -119,7 +119,7 @@ export default function Menu() {
                 className="text-3xl font-bold tracking-tight text-[#252525]"
                 id="join-heading"
               >
-                Découvrer notre menu
+                Découvrez notre menu
               </h2>
               <p className="text-lg text-[#252525]">
                 Pour ceux qui veulent se faire plaisir, venez combler vos désirs
