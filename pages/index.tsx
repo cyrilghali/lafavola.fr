@@ -5,6 +5,8 @@ import Hero from '../components/hero_section/Hero'
 import Images from '../components/Images'
 import Menu from '../components/Menu'
 import Reviews from '../components/Reviews'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -15,13 +17,27 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Hero />
-        <Menu />
-        <Images />
-        <Reviews />
-        <ContactUs />
+      <Navbar />
+
+      <main className="pt-16">
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="menu">
+          <Menu />
+        </section>
+        <section id="gallery">
+          <Images />
+        </section>
+        <section id="reviews">
+          <Reviews />
+        </section>
+        <section id="contact">
+          <ContactUs />
+        </section>
       </main>
+
+      <Footer />
     </div>
   )
 }
