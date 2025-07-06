@@ -19,6 +19,8 @@ const Home: NextPage = () => {
 
       <Navbar />
 
+
+
       <main className="pt-16">
         <section id="hero">
           <Hero />
@@ -36,6 +38,13 @@ const Home: NextPage = () => {
           <ContactUs />
         </section>
       </main>
+
+        <div className="bg-red-500 text-center text-xl p-8">
+            <p className="text-white font-bold">
+                Nous serons fermés pour congés annuels du 3 août au 31 août inclus. <br />
+                Bonne vacances à tous !
+            </p>
+        </div>
 
       <Footer />
     </div>
